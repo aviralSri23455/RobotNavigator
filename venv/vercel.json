@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/start-simulation",
+        "methods": ["POST"],
+        "dest": "/api/app.py"
+      }
+    ]
+  }
+  
