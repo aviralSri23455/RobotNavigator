@@ -1,5 +1,4 @@
 # requirements.txt
 numpy>=1.26.0,<1.27.0
-pandas>=2.1.0,<2.2.0
-requests>=2.31.0,<2.32.0
+matplotlib>=3.5.0,<3.6.0
 Flask>=3.0.0,<3.1.0
